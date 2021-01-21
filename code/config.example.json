@@ -1,4 +1,12 @@
 {
   "github_access_key": "not-in-git",
-  "max_repos": 100
+  "max_repos": 1000,
+  "languages_with_suffix": {
+    "Python": ".py",
+    "Ruby": ".rb",
+    "C": ".c",
+    "JavaScript": ".js"
+  },
+  "output_dir": "./data",
+  "required_bytes": 1000000
 }

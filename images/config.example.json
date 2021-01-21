@@ -2,5 +2,7 @@
   "google_api_key": "not-in-git",
   "google_cse_id": "not-in-git",
   "queries": ["nature", "cars"],
-  "formats": ["gif", "png"]
+  "formats": ["gif", "png"],
+  "output_dir": "./data",
+  "required_bytes": 1100000
 }

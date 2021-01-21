@@ -1,4 +1,6 @@
 {
   "langs": ["sk", "en", "pl"],
-  "queries": ["New York", "Barack Obama", "Edison"]
+  "queries": ["New York", "Barack Obama", "Edison"],
+  "formats": ["utf8", "utf16", "ascii"],
+  "output_dir": "./data",
 }

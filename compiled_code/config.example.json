@@ -1,0 +1,9 @@
+{
+  "architectures": {
+    "arm": "arm-linux-gnueabi-gcc -o OUTPUT_PATH INPUT_PATH",
+    "mips": "mips-linux-gnu-gcc -EB -march=34kc -static INPUT_PATH -o OUTPUT_PATH",
+    "win32": "i686-w64-mingw32-gcc INPUT_PATH -o OUTPUT_PATH.exe",
+    "win64": "x86_64-w64-mingw32-gcc INPUT_PATH -o OUTPUT_PATH.exe"
+  },
+  "output_dir": "./data"
+}
